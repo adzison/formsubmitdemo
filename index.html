@@ -102,6 +102,11 @@
         </a>
     <div class ="container">
       <form class="row g-3" action="https://formsubmit.co/5e60d388bb02d38779e8f00d2252ea96" method="POST" >
+        <!-- Honeypot -->
+        <input type="text" name="_honey" style="display: none;">
+
+        <!-- Disable Capatcha -->
+        <input type="hidden" name ="_captcha" value="false">
         <h3>Contact me</h3>
         <input type="text" id="name" placeholder="Your Name" name="name" required>
         <input type="email" id="email" placeholder="Email" name="email" required>
